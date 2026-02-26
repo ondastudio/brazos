@@ -3,7 +3,10 @@ export function swiperTestimonials() {
   console.log("swiperTestimonials");
 
 
-  const element = document.querySelector(".section_home-testimonials");
+  const element = document.querySelector(
+    ".section_home-testimonials, .section_customers"
+  );
+
   if (!element) return;
 
 

@@ -6,8 +6,6 @@ export function swiperTestimonialsCarrers() {
   const element = document.querySelector(".section_careers-testimonials");
   if (!element) return;
 
-
-
   // Initialize Swiper
   var swiper_base = new Swiper(".swiper-testimonials", {
     slidesPerView: 2,

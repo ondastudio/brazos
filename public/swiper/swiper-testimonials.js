@@ -35,4 +35,5 @@ export function swiperTestimonials() {
         spaceBetween: 40,
       },
     },
+  });
 }

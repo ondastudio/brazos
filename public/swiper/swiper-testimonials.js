@@ -36,5 +36,21 @@ export function swiperTestimonials() {
         spaceBetween: 40,
       },
     },
+    on: {
+      init: function () {
+        // Set the total number of slides
+        document.querySelector("[swiper-total-number]").textContent =
+          this.slides.length;
+
+        // Set the initial current slide number (account for zero-based index)
+        document.querySelector("[swiper-current-number]").textContent =
+          this.activeIndex + 1;
+      },
+      slideChange: function () {
+        // Update the current slide number on slide change
+        document.querySelector("[swiper-current-number]").textContent =
+          this.activeIndex + 1;
+      },
+    },
   });
 }

@@ -1,12 +1,8 @@
 export function technicalGuide() {
   console.log("technicalGuide");
 
-
   const element = document.querySelector("#wf-form-Report");
   if (!element) return;
-
-
-
 
   window.Webflow ||= [];
   window.Webflow.push(() => {

@@ -1,13 +1,8 @@
-
 export function benefitsTabs() {
-  console.log("benefitsTabs");
-
+  //console.log("benefitsTabs");
 
   const element = document.querySelector(".benefit-tab-content");
   if (!element) return;
-
-
-
 
   if ($(window).width() > 991) {
     const benefitTabContents = document.querySelectorAll(

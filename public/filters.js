@@ -1,6 +1,5 @@
 export function filters() {
-  console.log("filters");
-
+  //console.log("filters");
 
   const element = document.querySelector("[filter-button]");
   if (!element) return;

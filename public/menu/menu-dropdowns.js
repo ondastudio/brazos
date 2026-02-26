@@ -1,7 +1,5 @@
 export function menuDropdown() {
-  console.log("menuDropdown");
-
-
+  //console.log("menuDropdown");
 
   if ($(window).width() > 991) {
     function updateNavBackground() {

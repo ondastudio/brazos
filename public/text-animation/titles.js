@@ -1,6 +1,5 @@
 export function titles() {
-  console.log("titles");
-
+  //console.log("titles");
 
   const element = document.querySelector("[split-lines]");
   if (!element) return;

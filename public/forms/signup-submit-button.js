@@ -1,6 +1,5 @@
-
 export function signUp() {
-  console.log("signUp");
+  //console.log("signUp");
 
   /*
     const element = document.querySelector(".field-error");

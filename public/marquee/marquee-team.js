@@ -1,11 +1,8 @@
-
 export function marqueeTeam() {
-  console.log("marqueeTeam");
-
+  //console.log("marqueeTeam");
 
   const element = document.querySelector(".marquee_track.is-team");
   if (!element) return;
-
 
   let tlmar = gsap.timeline({ repeat: -1 });
 

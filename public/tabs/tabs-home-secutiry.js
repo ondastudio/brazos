@@ -1,11 +1,8 @@
 export function tabshomeSecurity() {
-  console.log("tabshomeSecurity");
-
+  //console.log("tabshomeSecurity");
 
   const element = document.querySelector(".security-tab-content");
   if (!element) return;
-
-
 
   if ($(window).width() > 991) {
     const securityTabContents = document.querySelectorAll(

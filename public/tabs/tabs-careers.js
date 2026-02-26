@@ -1,11 +1,8 @@
 export function tabsCareers() {
-  console.log("tabsCareers");
-
+  //console.log("tabsCareers");
 
   const element = document.querySelector(".tab-item");
   if (!element) return;
-
-
 
   if ($(window).width() > 991) {
     const tabs = document.querySelectorAll(".tab-item");

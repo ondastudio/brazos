@@ -1,5 +1,5 @@
 export function lineGrow() {
-  console.log("line grow");
+  //console.log("line grow");
   const element = document.querySelector("[line-grow-animation]");
   if (!element) return;
 

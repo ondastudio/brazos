@@ -1,12 +1,8 @@
-
 export function integrationsTabs() {
-  console.log("integrationsTabs");
-
+  //console.log("integrationsTabs");
 
   const element = document.querySelector(".hardware_wrapper");
   if (!element) return;
-
-
 
   $("[data-hardware-tab-content]").on("click", function () {
     console.log("hard");

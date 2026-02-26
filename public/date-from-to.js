@@ -1,11 +1,8 @@
 export function datefromto() {
-  console.log("datefromto");
-
+  //console.log("datefromto");
 
   const element = document.querySelector(".from-to-wrapper");
   if (!element) return;
-
-
 
   $(".from-to-wrapper").each(function () {
     let $wrapper = $(this);

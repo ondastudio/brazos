@@ -1,14 +1,8 @@
-
 export function shareLinks() {
-  console.log("shareLinks");
-
+  //console.log("shareLinks");
 
   const element = document.querySelector("[copy-link-button]");
   if (!element) return;
-
-
-
-
 
   const copyButton = document.querySelector("[copy-link-button]");
 

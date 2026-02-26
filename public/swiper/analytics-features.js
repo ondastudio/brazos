@@ -1,12 +1,8 @@
 export function swiperAnalitics() {
-  console.log("swiperAnalitics");
-
+  //console.log("swiperAnalitics");
 
   const element = document.querySelector(".swiper-analytics-features");
   if (!element) return;
-
-
-
 
   // AUTO SCROLL ANIMATION
   function initAnimation() {

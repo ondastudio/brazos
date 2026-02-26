@@ -1,7 +1,5 @@
-
 export function swiperTestimonialsCarrers() {
-  console.log("swiperTestimonialsCarrers");
-
+  //console.log("swiperTestimonialsCarrers");
 
   const element = document.querySelector(".section_careers-testimonials");
   if (!element) return;

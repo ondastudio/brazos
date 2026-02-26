@@ -1,14 +1,8 @@
-
 export function formButtonSubmit() {
-  console.log("forms");
-
+  //console.log("forms");
 
   const element = document.querySelector(".form-submit-button");
   if (!element) return;
-
-
-
-
 
   const formInputs = $(
     "#wf-form-Form input, #wf-form-Form textarea, #wf-form-Form select"

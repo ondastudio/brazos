@@ -1,6 +1,5 @@
 export function numberCount() {
-  console.log("numberCount");
-
+  //console.log("numberCount");
 
   const element = document.querySelector("[number-count]");
   if (!element) return;

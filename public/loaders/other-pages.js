@@ -1,12 +1,8 @@
-
 export function loader() {
-  console.log("loader");
-
+  //console.log("loader");
 
   const element = document.querySelector(".loader-other-pages");
   if (!element) return;
-
-
 
   // Create a GSAP timeline
   var othersHeroTl = gsap.timeline();

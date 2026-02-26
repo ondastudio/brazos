@@ -16,12 +16,10 @@ export function swiperTestimonials() {
     spaceBetween: 40,
     centeredSlides: true,
     loop: false,
-    freeMode: true,
-    mousewheel: true,
-    // navigation: {
-    //   nextEl: ".customers-next-arrow",
-    //   prevEl: ".customers-prev-arrow",
-    // },
+    navigation: {
+      nextEl: ".customers-next-arrow",
+      prevEl: ".customers-prev-arrow",
+    },
     keyboard: {
       enabled: true,
       onlyInViewport: false,

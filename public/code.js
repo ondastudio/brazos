@@ -27,6 +27,7 @@ import { swiperStandards } from './swiper/swiper-standards.js';
 import { swiperTailored } from './swiper/swiper-tailored.js';
 import { swiperTestimonialsCarrers } from './swiper/swiper-testimonials-careers.js';
 import { swiperTestimonials } from './swiper/swiper-testimonials.js';
+import { swiperHighlights } from './swiper/swiper-highlights.js';
 
 import { tabsCareers } from './tabs/tabs-careers.js';
 import { tabshomeSecurity } from './tabs/tabs-home-secutiry.js';
@@ -71,6 +72,7 @@ swiperStandards();
 swiperTailored();
 swiperTestimonialsCarrers();
 swiperTestimonials();
+swiperHighlights();
 
 tabsCareers();
 tabshomeSecurity();

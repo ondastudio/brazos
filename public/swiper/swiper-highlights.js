@@ -13,8 +13,8 @@ export function swiperHighlights() {
     centeredSlides: true,
     loop: false,
     navigation: {
-      nextEl: ".swiper-highlights .customers-next-arrow",
-      prevEl: ".swiper-highlights .customers-prev-arrow",
+      nextEl: ".swiper-highlights .swiper-button-next",
+      prevEl: ".swiper-highlights .swiper-button-prev",
     },
     keyboard: {
       enabled: true,

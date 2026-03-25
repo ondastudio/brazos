@@ -11,7 +11,7 @@ export function swiperHighlights() {
     speed: 700,
     spaceBetween: 40,
     centeredSlides: true,
-    loop: false,
+    loop: true,
     navigation: {
       nextEl: ".swiper-highlights .swiper-button-next",
       prevEl: ".swiper-highlights .swiper-button-prev",
@@ -26,9 +26,6 @@ export function swiperHighlights() {
         slidesPerView: 1,
       },
       1024: {
-        spaceBetween: 40,
-      },
-      1400: {
         spaceBetween: 40,
       },
     },

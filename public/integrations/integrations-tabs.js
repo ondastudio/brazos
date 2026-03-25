@@ -5,7 +5,7 @@ export function integrationsTabs() {
   if (!element) return;
 
   $("[data-hardware-tab-content]").on("click", function () {
-    console.log("hard");
+    //console.log("hard");
     $(".hardware_wrapper").css("display", "block");
     $(".software_wrapper").css("display", "none");
   });

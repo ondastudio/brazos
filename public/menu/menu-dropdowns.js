@@ -65,7 +65,7 @@ export function menuDropdown() {
     //IS MOBILE ————————————————————————————————————————————————————————————
     //IS MOBILE ————————————————————————————————————————————————————————————
     $(".menu-dropdown-toggle").on("click", function () {
-      console.log("click");
+      //console.log("click");
       let $this = $(this);
 
       // Stop execution if the clicked element has .is-lang

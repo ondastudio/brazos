@@ -1,12 +1,12 @@
 export function technicalGuide() {
-  console.log("technicalGuide");
+  //console.log("technicalGuide");
 
   const element = document.querySelector("#wf-form-Report");
   if (!element) return;
 
   window.Webflow ||= [];
   window.Webflow.push(() => {
-    console.log("entra");
+    //console.log("entra");
 
     const formInputs = $(
       "#wf-form-Report input, #wf-form-Report textarea, #wf-form-Report select"
@@ -33,11 +33,11 @@ export function technicalGuide() {
       });
 
       if (allFilled) {
-        console.log("disabled");
+        //console.log("disabled");
         buttonDisabled.css({ opacity: "0", pointerEvents: "none" });
         submitButton.css({ pointerEvents: "auto" });
       } else {
-        console.log("enabled");
+        //console.log("enabled");
         buttonDisabled.css({ opacity: "1", pointerEvents: "auto" });
         submitButton.css({ pointerEvents: "none" });
       }

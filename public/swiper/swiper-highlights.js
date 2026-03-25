@@ -5,6 +5,10 @@ export function swiperHighlights() {
 
   if (!element) return;
 
+  if (typeof Swiper === "undefined") {
+    window.addEventListener("load", swiperHighlights);
+    return;
+  }
 
   var swiper_base = new Swiper(".swiper-highlights", {
     slidesPerView: 2,

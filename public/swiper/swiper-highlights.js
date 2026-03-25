@@ -11,7 +11,7 @@ export function swiperHighlights() {
     speed: 700,
     spaceBetween: 40,
     centeredSlides: true,
-    loop: true,
+    loop: false,
     navigation: {
       nextEl: ".swiper-highlights .swiper-button-next",
       prevEl: ".swiper-highlights .swiper-button-prev",
@@ -31,16 +31,18 @@ export function swiperHighlights() {
     },
     on: {
       init: function () {
-        const realTotal = this.slides.filter(
-          (s) => !s.classList.contains("swiper-slide-duplicate")
-        ).length;
-        document.querySelector("[swiper-total-number]").textContent = realTotal;
+        // Set the total number of slides
+        document.querySelector("[swiper-total-number]").textContent =
+          this.slides.length;
+
+        // Set the initial current slide number (account for zero-based index)
         document.querySelector("[swiper-current-number]").textContent =
-          this.realIndex + 1;
+          this.activeIndex + 1;
       },
       slideChange: function () {
+        // Update the current slide number on slide change
         document.querySelector("[swiper-current-number]").textContent =
-          this.realIndex + 1;
+          this.activeIndex + 1;
       },
     },
   });

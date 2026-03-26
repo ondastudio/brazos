@@ -32,7 +32,7 @@ export function swiperHighlights() {
           this.slides.length;
 
         // Set the initial current slide number (account for zero-based index)
-        document.querySelector(".section_highlights[swiper-current-number]").textContent =
+        document.querySelector(".section_highlights [swiper-current-number]").textContent =
           this.activeIndex + 1;
       },
       slideChange: function () {

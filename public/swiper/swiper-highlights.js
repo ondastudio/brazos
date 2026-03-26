@@ -1,18 +1,14 @@
 export function swiperHighlights() {
   console.log("swiperHighlights imported");
-  /*
-  const element = document.querySelector(
+
+  const swiperHighlight = document.querySelector(
     ".section_highlights"
   );
 
-  if (!element) return;
+  if (!swiperHighlight) return;
 
-  if (typeof Swiper === "undefined") {
-    window.addEventListener("load", swiperHighlights);
-    return;
-  }
 
-  var swiper_base = new Swiper(".swiper-highlights", {
+  var swiper_base = new Swiper(swiperHighlight, {
     slidesPerView: 2,
     speed: 700,
     spaceBetween: 40,
@@ -38,16 +34,16 @@ export function swiperHighlights() {
     on: {
       init: function () {
         // Set the total number of slides
-        document.querySelector("[swiper-total-number]").textContent =
+        document.querySelector(".section_highlights [swiper-total-number]").textContent =
           this.slides.length;
 
         // Set the initial current slide number (account for zero-based index)
-        document.querySelector("[swiper-current-number]").textContent =
+        document.querySelector(".section_highlights[swiper-current-number]").textContent =
           this.activeIndex + 1;
       },
       slideChange: function () {
         // Update the current slide number on slide change
-        document.querySelector("[swiper-current-number]").textContent =
+        document.querySelector(".section_highlights [swiper-current-number]").textContent =
           this.activeIndex + 1;
       },
     },

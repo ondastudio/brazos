@@ -1,4 +1,6 @@
 export function swiperHighlights() {
+  console.log("swiperHighlights imported");
+  /*
   const element = document.querySelector(
     ".section_highlights"
   );
@@ -50,4 +52,5 @@ export function swiperHighlights() {
       },
     },
   });
+  */
 }

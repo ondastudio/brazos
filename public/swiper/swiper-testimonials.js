@@ -8,7 +8,7 @@ export function swiperTestimonials() {
   if (!element) return;
 
 
-  var swiper_base = new Swiper(".swiper-testimonials.customers", {
+  var swiper_base = new Swiper(".swiper-testimonials", {
     slidesPerView: 1,
     speed: 700,
     spaceBetween: 40,

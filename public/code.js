@@ -40,8 +40,6 @@ import { copyright } from './copyright.js';
 import { datefromto } from './date-from-to.js';
 import { filters } from './filters.js';
 
-
-
 backgroundBlue();
 imageClip();
 lineGrow();

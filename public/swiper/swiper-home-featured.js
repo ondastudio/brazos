@@ -5,7 +5,7 @@ export function swiperHomeFeatured() {
   if (!element) return;
 
   if ($(window).width() < 991) {
-    var swiper_base = new Swiper(".swiper-home-featured", {
+    var swiper_base = new Swiper(element, {
       slidesPerView: 1,
       speed: 700,
       spaceBetween: 40,

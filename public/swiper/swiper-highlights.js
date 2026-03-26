@@ -1,12 +1,6 @@
 export function swiperHighlights() {
-  console.log("swiperHighlights imported");
-
-  const swiperHighlight = document.querySelector(
-    ".section_highlights"
-  );
-
+  const swiperHighlight = document.querySelector(".swiper-highlights");
   if (!swiperHighlight) return;
-
 
   var swiper_base = new Swiper(swiperHighlight, {
     slidesPerView: 2,
